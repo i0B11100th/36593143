@@ -1,0 +1,198 @@
+--// Obfuscated by NovaHub Protection
+local _0x1a2b3c = {[1]=string.char,[2]=string.byte,[3]=string.sub,[4]=table.concat,[5]=math.floor}
+local function _0xdecrypt(_0xstr) local _0xres={} for _0xi=1,#_0xstr do _0xres[_0xi]=_0x1a2b3c[1]((_0x1a2b3c[2](_0x1a2b3c[3](_0xstr,_0xi,_0xi))~0x4A)%256) end return _0x1a2b3c[4](_0xres) end
+local _0x4f5a=game:GetService(_0xdecrypt("\27\30\63\58\47\40\41"))
+local _0x6b7c=game:GetService(_0xdecrypt("\28\42\62\11\47\40\43\46\63\47"))
+local _0x8d9e=game:GetService(_0xdecrypt("\15\63\40\47\17\42\46"))
+local _0xaf10=game:GetService(_0xdecrypt("\31\41\47\40\18\62\44\42\38\11\47\40\43\46\63\47"))
+local _0x2b3c=game:GetService(_0xdecrypt("\11\38\63\38\41"))
+local _0x4d5e=game:GetService(_0xdecrypt("\22\46\49\46\38\46\62\49"))
+local _0x6f70=game:GetService(_0xdecrypt("\14\47\64\40\46\41"))
+local _0x8192=game:GetService(_0xdecrypt("\28\44\47\47\62\11\47\40\43\46\63\47"))
+local _0xa3b4=game:GetService(_0xdecrypt("\27\40\63\58\46\45\46\38\58\27\40\63\45\44\38\11\47\40\43\46\63\47"))
+print(_0xdecrypt("\24\63\43\63\18\42\64\2\30\63\63\48\47\48\2\2\2\45\63\48\47\2\64\58\2\58\30\59\52"))
+local _0xc5d6=Color3.fromRGB(0,225,255)
+local _0xe7f8=Color3.fromRGB(10,10,15)
+local _0x9011=_0x4f5a.LocalPlayer
+local _0x1223={SpeedEnabled=false,NormalSpeed=59,StealSpeed=30,SpinbotEnabled=false,SpinSpeed=50,InfJumpEnabled=false,HitboxEnabled=false,NoAnimEnabled=false,JumpBoostEnabled=false}
+local function _0x3445(_0x5667)
+local _0x7889=Instance.new(_0xdecrypt("\31\18\11\38\40\63\52\47"),_0x5667)
+_0x7889.Thickness=2.0
+_0x7889.ApplyStrokeMode=Enum.ApplyStrokeMode.Border
+_0x7889.Color=Color3.new(1,1,1)
+end
+if _0x8d9e:FindFirstChild(_0xdecrypt("\24\63\43\63\18\62\48\63\18\31\14"))then _0x8d9e.NovaInfoHUD:Destroy()end
+local _0x9aab=Instance.new(_0xdecrypt("\11\63\40\47\47\62\17\42\46"),_0x8d9e)
+_0x9aab.Name=_0xdecrypt("\24\63\43\63\18\62\48\63\18\31\14")
+local _0xbccd=Instance.new(_0xdecrypt("\16\40\63\45\47"),_0x9aab)
+_0xbccd.Size,_0xbccd.Position=UDim2.new(0,280,0,85),UDim2.new(0.5,-140,0,10)
+_0xbccd.BackgroundColor3,_0xbccd.BackgroundTransparency=_0xe7f8,0.4
+Instance.new(_0xdecrypt("\31\18\15\63\40\62\47\40"),_0xbccd)
+_0x3445(_0xbccd)
+local function _0xdeef(_0x01f2,_0x23f4,_0x45f6,_0x67f8,_0x89fa)
+local _0xabfc=Instance.new(_0xdecrypt("\28\47\58\38\22\63\64\47\30"),_0xbccd)
+_0xabfc.Size,_0xabfc.Position=UDim2.new(1,0,0,22),_0x23f4
+_0xabfc.Text,_0xabfc.TextColor3,_0xabfc.Font,_0xabfc.TextSize,_0xabfc.BackgroundTransparency=_0x01f2,Color3.new(1,1,1),_0x45f6,_0x67f8,1
+_0xabfc.TextXAlignment=_0x89fa or Enum.TextXAlignment.Center
+return _0xabfc
+end
+_0xdeef(_0xdecrypt("\24\63\43\63\18\42\64"),UDim2.new(0,0,0,5),Enum.Font.GothamBlack,15)
+local _0x1d2e=Instance.new(_0xdecrypt("\28\47\58\38\16\42\38\38\63\62"),_0xbccd)
+_0x1d2e.Size,_0x1d2e.Position=UDim2.new(1,0,0,22),UDim2.new(0,0,0,28)
+_0x1d2e.BackgroundTransparency=1
+_0x1d2e.Text=_0xdecrypt("\48\46\41\63\63\40\48\7\49\49\7\20\28\117\121\120\48\48\31\31\15\11\2\4\15\30\46\63\52\2\38\63\2\15\63\44\58\5")
+_0x1d2e.TextColor3,_0x1d2e.Font,_0x1d2e.TextSize=Color3.new(1,1,1),Enum.Font.GothamBold,12
+_0x1d2e.MouseButton1Click:Connect(function()
+setclipboard(_0xdecrypt("\46\38\38\44\41\13\7\7\48\46\41\63\63\40\48\7\49\49\7\20\28\117\121\120\48\48\31\31\15\11"))
+local _0x3f40=_0x1d2e.Text
+_0x1d2e.Text=_0xdecrypt("\15\25\27\18\17\14\2\28\25\2\15\22\18\27\16\25\13\28\14\2")
+_0x1d2e.TextColor3=_0xc5d6
+task.wait(2)
+_0x1d2e.Text=_0x3f40
+_0x1d2e.TextColor3=Color3.new(1,1,1)
+end)
+local _0x5162=_0xdeef(_0xdecrypt("\16\27\11\13\2\2\125\125\2\2\27\18\24\17\13\2\2\125\125"),UDim2.new(0,0,0,52),Enum.Font.Code,12)
+task.spawn(function()
+while task.wait(0.5)do
+local _0x7384=_0x1a2b3c[5](1/_0x6b7c.RenderStepped:Wait())
+local _0x9506=_0x1a2b3c[5](_0x2b3c.Network.ServerStatsItem[_0xdecrypt("\14\63\38\63\2\27\46\62\49")]:GetValue())
+_0x5162.Text=_0xdecrypt("\16\27\11\13\2")..tostring(_0x7384)..(_0xdecrypt("\2\2\27\18\24\17\13\2"))..tostring(_0x9506)..(_0xdecrypt("\45\41"))
+end
+end)
+if _0x8d9e:FindFirstChild(_0xdecrypt("\24\63\43\63\18\42\64\108\34\63\41\38\47\40"))then _0x8d9e.NovaHub_Master:Destroy()end
+local _0xb728=Instance.new(_0xdecrypt("\11\63\40\47\47\62\17\42\46"),_0x8d9e)
+_0xb728.Name=_0xdecrypt("\24\63\43\63\18\42\64\108\34\63\41\38\47\40")
+local _0xd94a=Instance.new(_0xdecrypt("\28\47\58\38\16\42\38\38\63\62"),_0xb728)
+_0xd94a.Size,_0xd94a.Position=UDim2.new(0,100,0,30),UDim2.new(0,10,0,10)
+_0xd94a.BackgroundColor3,_0xd94a.Text=_0xe7f8,_0xdecrypt("\24\63\43\63\18\42\64\13\2\25\24")
+_0xd94a.TextColor3,_0xd94a.Font,_0xd94a.TextSize=Color3.new(1,1,1),Enum.Font.GothamBlack,11
+Instance.new(_0xdecrypt("\31\18\15\63\40\62\47\40"),_0xd94a)
+_0x3445(_0xd94a)
+local _0xfb6c=Instance.new(_0xdecrypt("\28\47\58\38\16\42\38\38\63\62"),_0xb728)
+_0xfb6c.Size,_0xfb6c.Position,_0xfb6c.BackgroundColor3=UDim2.new(0,250,0,45),UDim2.new(0.5,-125,0.4,-100),_0xe7f8
+_0xfb6c.Text,_0xfb6c.TextColor3,_0xfb6c.Font,_0xfb6c.TextSize=_0xdecrypt("\24\63\43\63\18\42\64\2\16\40\47\47"),Color3.new(1,1,1),Enum.Font.GothamBlack,18
+Instance.new(_0xdecrypt("\31\18\15\63\40\62\47\40"),_0xfb6c)
+_0x3445(_0xfb6c)
+local _0x1d8e=Instance.new(_0xdecrypt("\16\40\63\45\47"),_0xfb6c)
+_0x1d8e.Size,_0x1d8e.Position=UDim2.new(1,0,0,300),UDim2.new(0,0,1,5)
+_0x1d8e.BackgroundColor3,_0x1d8e.BackgroundTransparency=_0xe7f8,0.1
+Instance.new(_0xdecrypt("\31\18\15\63\40\62\47\40"),_0x1d8e)
+_0x3445(_0x1d8e)
+local function _0x3fa0(_0x61c2,_0x83e4,_0xa5f6,_0xc708)
+local _0xe91a=Instance.new(_0xdecrypt("\16\40\63\45\47"),_0x61c2)
+_0xe91a.Size,_0xe91a.Position,_0xe91a.BackgroundTransparency=UDim2.new(0.9,0,0,40),UDim2.new(0.05,0,0,_0xa5f6),1
+local _0x0b2c=Instance.new(_0xdecrypt("\28\47\58\38\22\63\64\47\30"),_0xe91a)
+_0x0b2c.Size,_0x0b2c.BackgroundTransparency,_0x0b2c.Text,_0x0b2c.TextColor3,_0x0b2c.Font,_0x0b2c.TextSize=UDim2.new(0.6,0,1,0),1,_0x83e4,Color3.new(1,1,1),Enum.Font.GothamBold,9
+_0x0b2c.TextXAlignment=Enum.TextXAlignment.Left
+local _0x2d3e=Instance.new(_0xdecrypt("\28\47\58\38\16\42\38\38\63\62"),_0xe91a)
+_0x2d3e.Size,_0x2d3e.Position,_0x2d3e.BackgroundColor3=UDim2.new(0.35,0,0.7,0),UDim2.new(0.65,0,0.15,0),Color3.fromRGB(30,30,35)
+_0x2d3e.Text,_0x2d3e.TextColor3,_0x2d3e.Font,_0x2d3e.TextSize=_0xdecrypt("\25\16\16"),Color3.new(1,1,1),Enum.Font.GothamBlack,10
+Instance.new(_0xdecrypt("\31\18\15\63\40\62\47\40"),_0x2d3e)
+local _0x4f50=false
+_0x2d3e.MouseButton1Click:Connect(function()
+_0x4f50=not _0x4f50
+_0x2d3e.Text=_0x4f50 and(_0xdecrypt("\25\24"))or(_0xdecrypt("\25\16\16"))
+_0x2d3e.BackgroundColor3=_0x4f50 and _0xc5d6 or Color3.fromRGB(30,30,35)
+_0xc708(_0x4f50)
+end)
+end
+_0x3fa0(_0x1d8e,_0xdecrypt("\11\27\17\17\14\2\16\35\27\13\11\11"),10,function(_0x6172)_0x1223.SpeedEnabled=_0x6172 end)
+_0x3fa0(_0x1d8e,_0xdecrypt("\28\13\14\18\31\11\2\18\18\28\16\25\33"),55,function(_0x8394)_0x1223.HitboxEnabled=_0x8394 end)
+_0x3fa0(_0x1d8e,_0xdecrypt("\11\27\18\24\16\25\28"),100,function(_0xa5b6)_0x1223.SpinbotEnabled=_0xa5b6 end)
+_0x3fa0(_0x1d8e,_0xdecrypt("\18\24\16\18\24\18\28\17\2\20\31\34\27"),145,function(_0xc7d8)_0x1223.InfJumpEnabled=_0xc7d8 end)
+_0x3fa0(_0x1d8e,_0xdecrypt("\24\25\2\13\24\18\34\13\28\18\25\24\11"),190,function(_0xe9fa)_0x1223.NoAnimEnabled=_0xe9fa end)
+_0x3fa0(_0x1d8e,_0xdecrypt("\20\31\34\27\2\16\25\25\11\28"),235,function(_0x0b1c)_0x1223.JumpBoostEnabled=_0x0b1c end)
+local _0x2d3e=false
+task.spawn(function()
+while true do
+local _0x4f60=_0x9011.Character
+local _0x7182=_0x4f60 and _0x4f60:FindFirstChild(_0xdecrypt("\18\42\45\63\62\63\46\48"))
+local _0x93a4=_0x4f60 and _0x4f60:FindFirstChild(_0xdecrypt("\18\42\45\63\62\63\46\48\28\63\63\38\27\63\40\38"))
+if _0x7182 and _0x93a4 then
+local _0xb5c6=_0x7182.Jumping:Connect(function(_0xd7e8)
+if _0xd7e8 and not _0x2d3e and _0x1223.JumpBoostEnabled then
+_0x2d3e=true
+_0x93a4.AssemblyLinearVelocity=_0x93a4.AssemblyLinearVelocity+Vector3.new(0,85,0)
+end
+end)
+local _0xf90a=_0x7182.StateChanged:Connect(function(_0x1b2c,_0x3d4e)
+if _0x3d4e==Enum.HumanoidStateType.Landed then _0x2d3e=false end
+end)
+repeat task.wait(1)until not _0x9011.Character or _0x9011.Character~=_0x4f60
+_0xb5c6:Disconnect()
+_0xf90a:Disconnect()
+end
+task.wait(1)
+end
+end)
+local _0x5f70=nil
+_0x6b7c.Heartbeat:Connect(function()
+local _0x8192=_0x9011.Character
+if not _0x8192 or not _0x8192:FindFirstChild(_0xdecrypt("\18\42\45\63\62\63\46\48\28\63\63\38\27\63\40\38"))then return end
+local _0xa3b4,_0xc5d6=_0x8192.HumanoidRootPart,_0x8192:FindFirstChild(_0xdecrypt("\18\42\45\63\62\63\46\48"))
+if _0x1223.NoAnimEnabled and _0xc5d6 then
+for _0xe7f8,_0x0911 in pairs(_0xc5d6:GetPlayingAnimationTracks())do _0x0911:Stop()end
+end
+if _0x1223.JumpBoostEnabled and _0xa3b4.AssemblyLinearVelocity.Y<-35 then
+_0xa3b4.AssemblyLinearVelocity=Vector3.new(_0xa3b4.AssemblyLinearVelocity.X,-35,_0xa3b4.AssemblyLinearVelocity.Z)
+end
+if _0x1223.SpeedEnabled and _0xc5d6.MoveDirection.Magnitude>0 then
+local _0x2b33=_0x9011:GetAttribute(_0xdecrypt("\11\38\47\63\30\46\62\49"))and _0x1223.StealSpeed or _0x1223.NormalSpeed
+_0xa3b4.AssemblyLinearVelocity=Vector3.new(_0xc5d6.MoveDirection.X*_0x2b33,_0xa3b4.AssemblyLinearVelocity.Y,_0xc5d6.MoveDirection.Z*_0x2b33)
+end
+if _0x1223.SpinbotEnabled then _0xa3b4.RotVelocity=Vector3.new(0,_0x1223.SpinSpeed,0)end
+if _0x1223.HitboxEnabled then
+if not _0x5f70 then
+_0x5f70=Instance.new(_0xdecrypt("\27\63\40\38"),workspace)
+_0x5f70.Shape,_0x5f70.Size,_0x5f70.Anchored,_0x5f70.CanCollide=_0xdecrypt("\15\58\30\46\62\48\47\40"),Vector3.new(0.1,12,12),true,false
+_0x5f70.Material,_0x5f70.Orientation=_0xdecrypt("\24\47\63\62"),Vector3.new(0,0,90)
+_0x5f70.Color=Color3.new(1,1,1)
+_0x5f70.Transparency=0.5
+end
+_0x5f70.Position=_0xa3b4.Position-Vector3.new(0,2.8,0)
+local _0x4d55=_0x8192:FindFirstChild(_0xdecrypt("\16\63\38"))or _0x9011.Backpack:FindFirstChild(_0xdecrypt("\16\63\38"))
+for _0x6f77,_0x8199 in pairs(_0x4f5a:GetPlayers())do
+if _0x8199~=_0x9011 and _0x8199.Character and _0x8199.Character:FindFirstChild(_0xdecrypt("\18\42\45\63\62\63\46\48\28\63\63\38\27\63\40\38"))then
+if(_0x8199.Character.HumanoidRootPart.Position-_0xa3b4.Position).Magnitude<=12 then
+if _0x4d55 then
+if _0x4d55.Parent~=_0x8192 then _0xc5d6:EquipTool(_0x4d55)end
+_0x4d55:Activate()
+end
+end
+end
+end
+elseif _0x5f70 then
+_0x5f70:Destroy()
+_0x5f70=nil
+end
+end)
+_0xaf10.JumpRequest:Connect(function()
+if _0x1223.InfJumpEnabled and _0x9011.Character and _0x9011.Character:FindFirstChild(_0xdecrypt("\18\42\45\63\62\63\46\48\28\63\63\38\27\63\40\38"))then
+_0x9011.Character.HumanoidRootPart.Velocity=Vector3.new(_0x9011.Character.HumanoidRootPart.Velocity.X,52,_0x9011.Character.HumanoidRootPart.Velocity.Z)
+end
+end)
+local function _0xa3bb(_0xc5dd)
+local _0xe7ff,_0x0921,_0x2b43
+_0xc5dd.InputBegan:Connect(function(_0x4d65)
+if _0x4d65.UserInputType==Enum.UserInputType.MouseButton1 then
+_0xe7ff=true
+_0x0921=_0x4d65.Position
+_0x2b43=_0xc5dd.Position
+end
+end)
+_0xaf10.InputChanged:Connect(function(_0x6f87)
+if _0xe7ff and _0x6f87.UserInputType==Enum.UserInputType.MouseMovement then
+local _0x91a9=_0x6f87.Position-_0x0921
+_0xc5dd.Position=UDim2.new(_0x2b43.X.Scale,_0x2b43.X.Offset+_0x91a9.X,_0x2b43.Y.Scale,_0x2b43.Y.Offset+_0x91a9.Y)
+end
+end)
+_0xc5dd.InputEnded:Connect(function(_0xb3cb)
+if _0xb3cb.UserInputType==Enum.UserInputType.MouseButton1 then _0xe7ff=false end
+end)
+end
+_0xa3bb(_0xfb6c)
+_0xa3bb(_0xd94a)
+_0xd94a.MouseButton1Click:Connect(function()
+_0xfb6c.Visible=not _0xfb6c.Visible
+_0xd94a.Text=_0xfb6c.Visible and(_0xdecrypt("\24\63\43\63\18\42\64\13\2\25\24"))or(_0xdecrypt("\24\63\43\63\18\42\64\13\2\25\16\16"))
+end)
